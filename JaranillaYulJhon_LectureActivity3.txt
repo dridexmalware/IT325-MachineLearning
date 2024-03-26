@@ -1,4 +1,4 @@
-Machine Learning | Decision Tree vs KNN
+Lecture Activity 3 | Linear Regression vs. Logistic Regression
 
 Name: JARANILLA, Yul Jhon O.
 Instructor: Jhun Brian M. Andam

@@ -1,0 +1,48 @@
+Lecture Activity 2 | Performance Metrics Use Cases
+
+Name: JARANILLA, Yul Jhon O.
+Instructor: Jhun Brian M. Andam
+Course Code: IT325
+
+Cite instances of use-cases in model evaluation where;
+
+- Accuracy
+- Recall
+- Specificity
+- F1 Score
+
+Are the more sensible indicator of model performance.
+
+Answer: Machine learning algorithms’ performance can only be measured through model evaluation metrics. However, they each have a different emphasis about the overall effectiveness of any model selection criteria, which relies on specific purposes and use-cases for the model to adopt. It is more appropriate to refer to accuracy, recall, specificity and F1 score as better indicators of the performance of a model.
+
+1. Accuracy
+Use-case: Accuracy is the proportion of true results (both true positives and true negatives) among the total number of cases examined. When there is a balance in dataset such that approximately equal number of cases exist for each class this is a logical measure.
+
+Example: E-mail filtering (spam vs non-spam) where there are almost as many spam e-mails as non-spam ones. Thus, models with high accuracy will indicate their ability in distinguishing between spam and non-spam e-mails.
+
+
+2. Recall
+Use-case: Recall is the percentage of actual positive cases that are correctly predicted. This happens especially when missing out on a positive case (false negative) has greater implications than mislabeling a negative case as positive (false positive).
+
+Example: In disease surveillance, like cancer screening. On the other hand, even if it means some innocent people are flagged for follow up, it is crucial to detect as many true cases as possible so that affected individuals are not left out.
+
+
+3. Specificity
+Use-case: Specificity denotes the proportion of actual negatives correctly identified. It is a key measure when there is need to limit false positives.
+
+Example: Drug testing in sports where falsely accusing an athlete of using banned substance can ruin a carrier unjustly. In such situations, it is important that the test accurately identifies non-doping athletes as negative.
+
+
+4. F1 Score
+Use-case: However, F1 score is the harmonic mean of precision and recall and accuracy is not a good measure for imbalanced datasets since one class may be much more frequent than the other. It nicely balances recall versus precision trade-off.
+
+Example: This can occur during fraud detection in financial transactions whereby fraudulent transactions are far less than legitimate ones. The high value of F1 would suggest that the model can identify most real frauds (high recall) while at the same time maintaining low level of false alarms (high precision).
+
+
+The “better indicator,” which is more reasonable to use for evaluation of a model, depends on the situation at hand and what you consider critical about your models. The choice of a metric should align with the specific objective of your model and the particular nuances of the problem it aims to solve.
+
+📌 When it is important for overall accuracy (balanced classes): Accuracy is the right choice. It provides you with a simple way of knowing whether or not the model is correct regardless of class distinction.
+📌 When missing a positive case has serious consequences: For this reason recall rate is appropriate. In situations where failing to detect positive cases (e.g., diseases, fraudulent transactions) can have dire implications, you prioritize recall to capture as many positives as possible, even at the expense of capturing some negatives incorrectly.
+📌 When false positives are more costly or problematic: What one needs to look at when it comes to this issue is specificity.In scenarios where the cost of a false positive is high (e.g., drug testing in sports, sending innocent people to trial), you would prioritize specificity to ensure negatives are accurately identified.
+📌 When striking a balance between precision and capturing positives: You should choose F1 Score as an indicator.This metric is particularly useful in imbalanced datasets where you need to carefully balance the importance of precision (not incorrectly labeling negatives as positives) and recall (capturing as many positives as possible).
+

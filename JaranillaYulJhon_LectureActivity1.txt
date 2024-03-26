@@ -1,0 +1,26 @@
+Lecture Activity 1 | DT Algorithm
+
+Name: JARANILLA, Yul Jhon O.
+Instructor: Jhun Brian M. Andam
+Course Code: IT325
+
+Analyze the resource provided on the decision tree algorithm. Summarize the algorithm in 500 words, detailing how the steps are carried out. Additionally, include your insights and realizations for this model.
+
+- The Decision Tree Algorithm material lesson is an interesting approach to decision-making on a model, which are a kind of supervised machine learning methods in which data is split by specific parameters. The notebook has detailed sections, such as the theoretical background of decision trees, entropy and information gain computations and implementing decision tree model practically using scikit-learn library.
+
+Decision Trees perform splits on dataset into homogeneous subsets based on feature values. This splitting is visualized as a tree structure that begins from a root node and extends across decision nodes and leaves that correspond to possible outcomes. The selection of whether to split at each node considers the features of the dataset so as to form groups with most identical or pure outcomes.
+
+There are two main ideas for dividing data within decision trees: entropy and information gain. Entropy measures the uncertainty or unpredictability in information indicating homogeneity in a group. Lower entropy means more homogeneity in the group. Conversely, information gain calculates how much entropy was reduced when a dataset was divided through an attribute test. It tells us which feature to split on at each step when constructing the tree by selecting one that results in the highest value of Information Gain (IG).
+
+For example, we can take a dataset that has features such as age, house ownership, job status and credit rating against a target class like loan approval. The notebook describes how to compute the entropy for categories within a feature such as “young”, “middle” and “old” for the age feature. It counts how many times each class (‘yes’ or ‘no’) occurred in these categories to calculate the entropy.
+
+Python’s scikit-learn library will be used to practically demonstrate decision trees implementations. This entails data preparation, encoding categorical variables so that they can be handled by the algorithm, training of the decision tree model on dataset and visualizing it to interpret its functioning.
+
+The decision tree algorithm analysis also reveals several important findings:
+1. The effectiveness of a decision tree is mainly influenced by which factors are selected and what thresholds are used in dividing the records. Choosing informative features through entropy or information gain calculations is vital for constructing an efficient and accurate model.
+2. Decision trees can easily handle categorical and numerical data, making them versatile for various types of datasets.
+3. The visual representation of decision trees is intuitive, allowing for easy interpretation and explanation of the decision logic to non-technical stakeholders.
+
+On the other hand, decision trees can overfit especially with complex data sets and when pruning is not properly done. For example, if we do cross-validation, set a maximum depth of the tree or use ensemble methods like Random Forests will help to reduce this problem.
+
+To sum up, decision trees are potent in terms of classification and regression tasks in machine learning because they are straightforward. In order to utilize this algorithm efficiently through feature selection that results to most informative splits it is necessary to be able to compute and understand information gain and entropy.
