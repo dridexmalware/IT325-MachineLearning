@@ -4,16 +4,14 @@ Name: JARANILLA, Yul Jhon O.
 Instructor: Jhun Brian M. Andam
 Course Code: IT325
 
-Cite instances of use-cases in model evaluation where;
-
+🤔 Cite instances of use-cases in model evaluation where;
 - Accuracy
 - Recall
 - Specificity
 - F1 Score
-
 Are the more sensible indicator of model performance.
 
-Answer: Machine learning algorithms’ performance can only be measured through model evaluation metrics. However, they each have a different emphasis about the overall effectiveness of any model selection criteria, which relies on specific purposes and use-cases for the model to adopt. It is more appropriate to refer to accuracy, recall, specificity and F1 score as better indicators of the performance of a model.
+💡 Machine learning algorithms’ performance can only be measured through model evaluation metrics. However, they each have a different emphasis about the overall effectiveness of any model selection criteria, which relies on specific purposes and use-cases for the model to adopt. It is more appropriate to refer to accuracy, recall, specificity and F1 score as better indicators of the performance of a model.
 
 1. Accuracy
 Use-case: Accuracy is the proportion of true results (both true positives and true negatives) among the total number of cases examined. When there is a balance in dataset such that approximately equal number of cases exist for each class this is a logical measure.

@@ -4,9 +4,9 @@ Name: JARANILLA, Yul Jhon O.
 Instructor: Jhun Brian M. Andam
 Course Code: IT325
 
-Analyze the resource provided on the decision tree algorithm. Summarize the algorithm in 500 words, detailing how the steps are carried out. Additionally, include your insights and realizations for this model.
+🤔 Analyze the resource provided on the decision tree algorithm. Summarize the algorithm in 500 words, detailing how the steps are carried out. Additionally, include your insights and realizations for this model.
 
-- The Decision Tree Algorithm material lesson is an interesting approach to decision-making on a model, which are a kind of supervised machine learning methods in which data is split by specific parameters. The notebook has detailed sections, such as the theoretical background of decision trees, entropy and information gain computations and implementing decision tree model practically using scikit-learn library.
+💡 The Decision Tree Algorithm material lesson is an interesting approach to decision-making on a model, which are a kind of supervised machine learning methods in which data is split by specific parameters. The notebook has detailed sections, such as the theoretical background of decision trees, entropy and information gain computations and implementing decision tree model practically using scikit-learn library.
 
 Decision Trees perform splits on dataset into homogeneous subsets based on feature values. This splitting is visualized as a tree structure that begins from a root node and extends across decision nodes and leaves that correspond to possible outcomes. The selection of whether to split at each node considers the features of the dataset so as to form groups with most identical or pure outcomes.
 
